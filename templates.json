@@ -1,0 +1,44 @@
+{
+   "social_story": {
+      "birthday": ["Birthday parties are fun and exciting. There are some things you need to remember when attending a birthday party. If you remember these things, you will have a good time and the celebrant will be happy that you attended the party."],
+      "mall": ["It’s fun going to the mall! There’s so much stuff you can do in the mall! You can buy new toys, clothes, and other new things. You can also eat good food in a lot of different restaurants available. It’s also a great place to bond with your family and friends. Although, there are some things you need to remember when going to the mall. Once you remember these things, you will have a great time with your family and friends."],
+      "museum": ["A museum is a building that holds a collection of objects that are found in nature or objects that people created. Museums are known for sharing knowledge to people about the history of the collection of objects in the museum. The museum is a great place for kids to learn, and for family and friends to bond. Although, there are some things you need to remember when going to the museum. Once you remember these things, you will have a great time learning new things with your family and friends."],
+      "school": ["School is a place where you learn new things and meet new people who can be your friends. Although, there are some things you need to remember when going to school. Once you remember these things, you will have a great time learning in school with your classmates."],
+      "playing": ["Playing with friends is very fun and exciting. There are so many games you can play with your friends that you can’t do by yourself. Games like tag, hide and seek, playing with toys, board games, and others. Although, before you start playing with your friends again, there is some stuff you must learn. "],
+      "movie": ["It’s very fun going to the movies with your friends and/or family. It is a good bonding experience to spend time watching a good movie with your friends and/or family. Although, there are some things that you need to learn in order for you to watch in the cinemas or movie theaters with your friends and/or family."],
+      "friend": ["Going to your friend’s house is very fun because you and your friend can play a lot of games at their house, also they might also have a lot of toys and video games to play with. Although, there are some things you must learn before you go visit their house."],
+      "park": ["Amusement Parks are very fun to go to and it is also a great place to bond and spend time with your friends and family. Amusement Parks have roller coaster rides, fun games, fairs, great food, and a lot of other things that can make you, and your friends and family happy. Although, you have to learn a few things about it before you go to one of these amusement parks."],
+      "grandparents": ["It is important for everyone to visit their grandparents. Visiting your grandparents is a great way to spend time with your whole family. Also, nothing will make your grandparents happier when they get a visit from their children and their grandchildren. Grandparents love to spoil their grandchildren. The presence of the family visiting, and even a surprise visit, will help make their day. It will fill their home with life and make them feel loved. Although, before you visit your grandparents again, there are some things you should learn so you can show them how much you’ve behaved and become a good child."],
+      "zoo": ["A zoo, also known as a zoological park or zoological garden, is a place where you can see animals and observe or study them and what they do. Zoos give people like you an opportunity to observe animals they would never get the chance to see. A zoo is also a great place to study, learn and bond with your friends and family. Although, there are things you must know before you go to the zoo."],
+      "directive": [
+         "When you arrive at the $event, $expectedAction",
+         "In the $event after $action, $mayHappen",
+         "In the $event, $situation, $expectedAction",
+         "During the $event. $expectedAction"
+      ],
+      "question": [
+         "$situation, $tagQuestion"
+      ],
+      "good_response": [
+         "$goodResponse"
+      ],
+      "good_perspective": [
+         "What do you think the $actor will feel after you $expectedAction?"
+      ],
+      "affirmation": [
+         "That’s right! $situation makes you a good friend. $consequence"
+      ],
+      "bad_response": [
+         "$badResponse"
+      ],
+      "bad_perspective": [
+         "What do you think the $actor will feel after you $unexpectedAction?"
+      ],
+      "reprimand": [
+         "When you $unexpectedAction, they $mayFeel, so it's better to $expectedAction"
+      ],
+      "quiz": [
+         "$situation, $question"
+      ]
+   }
+}
