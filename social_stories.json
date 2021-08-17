@@ -1,0 +1,767 @@
+   {
+      "birthday": {
+         "descriptive": ["Birthday parties are fun and exciting. There are some things you need to remember when attending a birthday party. If you remember these things, you will have a good time and the celebrant will be happy that you attended the party."],
+         "directive": [
+            "When you arrive at the party, you should look for the celebrant. There will also be other kids at the party too and they may ask you to play with them.", 
+            "In the birthday party after greeting the celebrant, other kids may approach you and ask you to play with them.",
+            "In the birthday party, there might be games where you’ll play with other kids including the birthday celebrant.", 
+            "In the birthday party, there will be a time where everyone in the party will eat the food provided. During this time, everyone usually lines up and waits for their turn to get food.", 
+            "During the birthday party, everyone in the party will go towards the birthday celebrant and the cake to sing ‘happy birthday’ to the celebrant and watch them blow the cake."
+         ],
+         "question": [
+            "When you see the celebrant, what will you do?", 
+            "When other kids approach you what will you do?",
+            "When the people at the party ask you to play one of the party games, what will you do?",
+            "When it is time to eat, what will you do?",
+            "What will you do when everyone surrounds the birthday celebrant to sing ‘happy birthday’ to them?"
+         ],
+         "good_response": [
+            "Greet and give my gifts",
+            "Talk to them",
+            "Join the games",
+            "Wait for my turn in line",
+            "Join in singing"
+         ],
+         "good_perspective": [
+            "What do you think the celebrant will feel after you greet them and give them your gift?",
+            "What do you think other kids will feel after you talk to them or join them?",            
+            "What do you think the other kids and the birthday celebrant will feel after you join the party games?",            
+            "Do you think it is the right thing to do? Why do you think it’s the right thing to do?",
+            "What do you think the birthday celebrant will feel after you join everyone in singing ‘happy birthday’ to them?"
+         ],
+         "fup_good_perspective": [
+            "What will you feel after you greet the celebrant?",
+            "What will you feel after talking to the other kids or joining the other kids?",
+            "What will you feel after joining the other kids and the birthday celebrant in the party games?",
+            "How do you feel after doing the right thing?",
+            "What would you feel after singing ‘happy birthday’ to the celebrant?"
+         ],
+         "affirmation": [
+            "That’s right! Greeting your friend a “Happy Birthday” makes you a good friend. It will mean a lot to them and it will make them happy on their special day.", 
+            "Yes! Talking to other kids or joining them to play is a great way to make new friends. It will make you and the other kids happy!",
+            "Playing with other children is fun and it makes everyone happy. You will also get to meet new people who can be your new friends.",
+            "When it’s time to eat at a birthday party, it is good to be patient and wait for your turn to get food.",
+            "When it’s time to gather around the birthday celebrant and sing them a ‘happy birthday’, it is good to join and sing with everyone, and watch the birthday celebrant blow their candles. It will make the birthday celebrant happy!"
+         ],
+         "bad_response": [
+            "Ignore the celebrant",
+            "Ignore them",
+            "Ignore them",
+            "Cut in line",
+            "Not sing"
+         ],
+         "bad_perspective": [
+            "What will you feel if you don’t greet the celebrant?",
+            "What will you feel if you ignore them or walk away?",            
+            "What will you feel after not joining the other kids and the birthday celebrant in the party games?",
+            "How do you feel after what you did?",
+            "What will you feel after not joining everyone in singing the birthday celebrant a ‘happy birthday’?"
+         ],
+         "fup_bad_perspective": [
+            "Do you think the celebrant would feel happy if you don’t greet them?",            
+            "Do you think they will feel happy after you ignore them?",            
+            "What do you think other kids and the birthday celebrant will feel after you won’t join the party games?",            
+            "Do you think it is the right thing to do?",
+            "What do you think the birthday celebrant will feel if you don’t join in singing ‘happy birthday to them?"
+         ],
+         "reprimand": [
+            "When you don’t greet the celebrant during their birthday, they might feel sad and hurt. The celebrant might think that you forgot their birthday. It would be nice if you would greet the celebrant and make them happy on their special day.", 
+            "When other kids talk to you and you ignore them, it might hurt their feelings and make them sad. It would be nice if you also talk to them and join them if they ask you to play with them.",
+            "When other kids and the birthday celebrant invite you to play in the party games and you say that you don’t want to, it might hurt their feelings and make them sad. It would be nice if you would join them so they will feel happy.",
+            "When you don’t wait for your turn and be impatient when it is time to eat at a birthday party, you might make other people angry or annoyed. It would be nice to be patient and let others who are in front of you get their food first before you.",
+            "When you don’t join everyone in gathering around the birthday celebrant to sing ‘happy birthday’ and watch them blow the birthday candles, it might hurt the birthday celebrant’s feelings and they might feel sad. It would be nice to join everyone in singing, and watching the birthday celebrant in blowing their candles. It will make the celebrant happy."
+         ],
+         "quiz": [
+            "While you’re at a birthday party, when you meet the birthday celebrant, will you greet the celebrant or ignore them?",
+            ""
+         ]
+      },
+      "mall": {
+         "descriptive": ["It’s fun going to the mall! There’s so much stuff you can do in the mall! You can buy new toys, clothes, and other new things. You can also eat good food in a lot of different restaurants available. It’s also a great place to bond with your family and friends. Although, there are some things you need to remember when going to the mall. Once you remember these things, you will have a great time with your family and friends."],
+         "directive": [
+            "When you go to the mall, you should always be polite to the people working in the mall. You should be nice to workers like the security guards, janitors, salesmen and salesladies. It would also be great if you would say hello to them when you see them.",
+            "When you go to the mall, you see the janitor cleaning and you see some trash on the floor.",
+            "When going to the mall, there’s a chance your family and friends might eat somewhere nice, like a restaurant. When eating in a restaurant, you should learn to be polite, and have some dining table manners.",
+            "When going to the mall, there’s a chance your family and friends might eat somewhere nice, like a restaurant. When eating in a restaurant,preparing the food might take some time.",
+            "When you’re in the mall, you will most likely buy toys, food, and other stuff that are available in stores or shops. There will be lines where you should line up and wait for your turn to pay for your item.",
+            ""
+         ],
+         "question": [
+            "When you see a person working in the mall, what will you do?",
+            "What will you do?",
+            "When someone is talking to you while your mouth is full, what will you do?",
+            "What will you do when the food is still not ready, but you are very hungry?",
+            "What will you do when you are about to pay for something you want to buy?",
+            ""
+         ],
+         "good_response": [
+            "Be polite to them",
+            "Pick up the trash",
+            "Finish what I am chewing",
+            "Wait patiently until the food arrives.",
+            "Line up, wait for my turn",
+            ""
+         ],
+         "good_perspective": [
+            "What do you think they would feel after you greet and be polite to them?",
+            "What do you think the janitor will feel after you pick up the trash and throw it in the trash can?",
+            "Do you think it is proper to swallow what you are eating before you talk to someone?",
+            "Do you think it is proper to wait patiently for the food to arrive even if you are very hungry?",
+            "Do you think that lining up and waiting for your turn to pay shows that you are a good customer?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What will you feel after greeting and being polite to them?",
+            "What would you feel after helping the janitor?",
+            "Do you think you showed good manners on the dining table when you do that?",
+            "Do you think that you showed good manners on the dining table when you do that?",
+            "What will you feel after what you did and after knowing that you are a good customer?",
+            ""
+         ],
+         "affirmation": [
+            "Greeting the people who work in the mall will make them feel happy. It will make their work less stressful if you smile and say hello to them.",
+            "Whenever you see some of the workers in the mall having trouble with their job, it would be nice to try and help them because it will make them happy and it will also make you happy and make you feel good.",
+            "Whenever you are eating, and someone talks to you while you still have food in your mouth or you are chewing your food, swallow your food first before you talk to that person. Doing that shows good dining table manners and shows respect to the people at the dining table.",
+            "Whenever the food is not ready yet, and you are very hungry, it is important that you should wait and be patient because the workers in the restaurant are working very hard to make the food very special for you. Waiting just a little bit more will make the workers happy.",
+            "When you are going to pay for your item, it is important to line up and wait for your turn to pay for your item through the cashier. Doing this will make you a good customer because you are following the basic rules as a customer inside the mall. Following rules will make the workers in the mall and other customers happy.",
+            ""
+         ],
+         "bad_response": [
+            "I will ignore them",
+            "Leave the trash be",
+            "I will talk to them while my mouth is full",
+            "Complain about my food",
+            "Cut in line to pay",
+            ""
+         ],
+         "bad_perspective": [
+            "What do you think they would feel after you ignore them?",
+            "What do you think the janitor will feel after you walk by the trash and not pick it up?",
+            "Do you think it is proper to talk while you are eating or chewing your food?",
+            "Do you think it is proper to complain for your food to arrive quicker?",
+            "What will you feel after you don’t line up and pay for your item?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What would you feel after ignoring the workers at the mall?",
+            "What will you feel after not helping the janitor?",
+            "Do you think that you showed good manners on the dining table when you do that?",
+            "Do you think that it shows good manners on the dining table when you complain for your food to arrive quicker?",
+            "Do you think that skipping the line and paying for your item quickly makes you a good customer?",
+            ""
+         ],
+         "reprimand": [
+            "It’s not that bad to ignore the people working at the mall, but it will make them happier if you would greet them because they are the ones who make the mall clean, safe and a fun place to be in.",
+            "Whenever you see some of the workers in the mall having trouble with their job, you should not ignore them because it might make them feel sad and it might make their job more difficult and stressful.",
+            "Whenever you talk to someone while you are eating or chewing your food, it might look very rude to some people and it might be disrespectful for other people. It would be nice to swallow what you are eating or chewing first and then talk to the person you are talking to.",
+            "Whenever you complain about your food not arriving quicker, it might annoy some of the customers and restaurant workers. It might also distract them from the other customers they’re trying to help. It would be nice to wait for your food to arrive and be patient.",
+            "When you don’t wait for your turn and skip in front of the line to pay for your item, it might make other customers in the store angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn to pay for your item through the cashier.",
+            ""
+         ],
+         "quiz": [
+            "While you and your family are in the mall, when you see a person working in the mall, will you say hello to them or will you ignore them?",
+            ""
+         ]
+      },
+      "museum": {
+         "descriptive": ["A museum is a building that holds a collection of objects that are found in nature or objects that people created. Museums are known for sharing knowledge to people about the history of the collection of objects in the museum. The museum is a great place for kids to learn, and for family and friends to bond. Although, there are some things you need to remember when going to the museum. Once you remember these things, you will have a great time learning new things with your family and friends."],
+         "directive": [
+            "While in the museum, it is important to always keep quiet and be behaved. There are a lot of people also trying to learn in the museum, as well as the tour guide trying to teach and explain the objects inside the museum. It is also important to listen to the tour guide as he/she explains each object in the museum.",
+            "While in the museum, it is important to always keep quiet and be behaved. There are a lot of people also trying to learn in the museum, as well as the tour guide trying to teach and explain the objects inside the museum. It is also important to listen to the tour guide as he/she explains each object in the museum.",
+            "When you’re about to go into the museum, there will be lines where you should line up and wait for your turn to go in.",
+            "Once you’re in the museum, you will see a lot of beautiful sculptures, items, paintings and exhibitions.",
+            ""
+         ],
+         "question": [
+            "What will you do when the tour guide is teaching and explaining the objects in the museum?",
+            "What will you do if it says “Do not touch/Do not sit” on the object?",
+            "What will you do when you are about to go in?",
+            "What will you do when you see these sculptures, items, paintings and exhibitions in the museum?",
+            ""
+         ],
+         "good_response": [
+            "Keep quiet and listen",
+            "Follow the rules",
+            "Line up, wait for my turn",
+            "Admire, appreciate them.",
+            ""
+         ],
+         "good_perspective": [
+            "What do you think the tour guide will feel if you listen well and be quiet?",
+            "What do you think the museum workers will feel after you follow their rules?",
+            "Do you think that lining up and waiting for your turn to go inside the museum is the right thing to do?",
+            "What do you think your tour guide will feel after he or she sees you admiring the sculptures, items, paintings and exhibitions in the museum?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What will you feel after listening to the tour guide and while being quiet?",
+            "What would you feel after following the rules in the museum?",
+            "What do you think other people in the museum will feel after you lined up properly to go in?",
+            "What will you feel after seeing, admiring and appreciating these things in the museum?",
+            ""
+         ],
+         "affirmation": [
+            "It is important to keep quiet and behave inside the museum because it shows respect to not only the tour guide, but also to the objects in the museum. It is also important to listen to the tour guide while she is teaching and explaining the objects in the museum. Listening to the tour guide will make him/her happy and it will also make you learn more about the stuff in the museum.",
+            "It is very important to respect the objects around you in the museum, for these objects are a symbol of history. It is also good to be well-behaved and follow the rules while in the museum because it will make the workers in the museum very happy.",
+            "When you are about to go inside the museum, it is important to line up and wait for your turn to go in. Doing this will make you a good visitor of the museum because you are following the rules and lining up properly in the museum. Following rules will make the workers in the museum and other people in the museum happy.",
+            "When visiting the museum, it is important to admire the beautiful artwork and historic pieces in the museum. It will make your teachers and the tour guide proud and happy. It will also make you happy if you like art and history.",
+            ""
+         ],
+         "bad_response": [
+            "Ignore the tour guide",
+            "Disobey the rules",
+            "Cut in line",
+            "Ignore them and be noisy",
+            ""
+         ],
+         "bad_perspective": [
+            "What do you think the tour guide will feel if you don’t listen to him/her and be noisy at the same time?",
+            "What do you think the museum workers will feel after you did not follow the rules?",
+            "What will you feel after you don’t line up and cut in front of other museum visitors?",
+            "What will you feel after ignoring these artworks and historic pieces in the museum?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "Do you think it is right for the tour guide to feel that way?",
+            "What would you feel after not following the rules in the museum?",
+            "Do you think that cutting in line and going in front of others makes you a good person and museum visitor?",
+            "What do you think your tour guide and teachers will feel after they see you ignoring the artworks and historic pieces in the museum?",
+            ""
+         ],
+         "reprimand": [
+            "Ignoring the tour guide, and being noisy while the tour guide is teaching will make the tour guide feel disrespected and it might make him/her sad and angry. It would be nice if you would listen to the tour guide to make her feel respected and happy.",
+            "You should always follow the rules in the museum because if you don’t follow the rules, the workers in the museum might feel sad and disrespected that you broke their rules. It would be nice to follow the rules, be well-behaved, and respect the objects in the museum.",
+            "When you don’t wait for your turn and skip in front of the line to go inside the museum, it might make other museum visitors angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn to go inside the museum.",
+            "When you ignore the artwork and historical pieces in the museum, it might disappoint or make your teachers and tour guide sad. It would be nice to admire and appreciate the artworks and historic pieces in the museum.",
+            ""
+         ],
+         "quiz": [
+            "Next, while you’re with your classmates in the museum and one of the artworks has a sign that “Do not touch/Do not sit”, will you respect and follow the rule or will you break the rule?",
+            ""
+         ]
+      },
+      "school": {
+         "descriptive": ["School is a place where you learn new things and meet new people who can be your friends. Although, there are some things you need to remember when going to school. Once you remember these things, you will have a great time learning in school with your classmates."],
+         "directive": [
+            "While in school, you will meet your teachers and new classmates that can be your friends. Your new classmates might ask you to play.",
+            "While in school, you will meet your teachers and new classmates that can be your friends. Your new classmates might ask you to play.",
+            "In the classroom, your teacher might ask the class a question about the lesson he or she is teaching. Students usually raise their hand to answer the teacher’s question.",
+            "In school, there are also rules that you should follow. Rules like, not running in the hallway, keeping quiet in class when the teacher is discussing, no playing in the classroom, and others.",
+            ""
+         ],
+         "question": [
+            "What will you do when your teacher approaches you?",
+            "What will you do when your new classmates approach you and ask you to study or play with them?",
+            "When the teacher asks a question to everyone in the class, what will you do if you know the answer?",
+            "What will you do if your teacher is discussing his or her lesson in the classroom?"
+         ],
+         "good_response": [
+            "Greet my teacher",
+            "Say hello to them",
+            "Raise my hand",
+            "Keep quiet and listen"
+         ],
+         "good_perspective": [
+            "What do you think your teacher will feel after greeting him/her a “good morning/good afternoon”?",
+            "What do you think your new classmates will feel after you talk to them or join them?",
+            "What do you think your teacher will feel when you raise your hand and answer the question?",
+            "What do you think your teacher will feel when you keep quiet during their discussion?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What will you feel after greeting your teacher a “good morning/good afternoon”?",
+            "What will you feel after talking to the other kids or joining the other kids?",
+            "What will you feel after raising your hand and answering your teacher’s question?",
+            "What will you feel after you keep quiet during his or her discussion?",
+            ""
+         ],
+         "affirmation": [
+            "After greeting your teacher a “good morning” or “good afternoon”, it will make them feel happy, appreciated and respected. It will also make you feel great and happy because you made them happy.",
+            "Talking to your new classmates or joining them to study or play is a great way to make new friends. It will make you and your new classmates happy!",
+            "When your teacher asks a question about the lesson, it is important to raise your hand and answer your teacher’s question. It will make your teacher feel happy, proud and he or she will appreciate that you answered his or her question. It will also make you happy.",
+            "Whenever your teacher is discussing his or her lesson in front of the class, it is important to keep quiet and listen to your teacher. It will make your teacher happy because he or she knows that you are listening and learning. Your teacher will also be happy because he or she is not being interrupted. If you do this, you will also be a good student.",
+            ""
+         ],
+         "bad_response": [
+            "Ignore my teacher.",
+            "Ignore them",
+            "Ignore my teacher",
+            "Ignore and be noisy",
+            ""
+         ],
+         "bad_perspective": [
+            "What do you think your teacher will feel after you ignore him or her?",
+            "What will you feel if you ignore them or walk away?",
+            "What will you feel after not answering your teacher’s question and ignoring your teacher?",
+            "What will you feel after not listening to your teacher and not keeping quiet?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What will you feel after ignoring your teacher?",
+            "Do you think they will feel happy after you ignore them?",
+            "What do you think your teacher will feel after you ignore his or her question and don’t answer?",
+            "What do you think your teacher will feel after you don’t listen to him or her and interrupt his or her discussion?",
+            ""
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to talk to your teacher, but you have to tell your teacher that you don’t feel like talking because ignoring your teacher might make him or her feel sad, unappreciated and disrespected. That is why it would be nice to talk to your teacher when they approach you and greet them in a proper manner.",
+            "It’s okay if you don’t feel like talking or playing with your classmates, but you have to tell them in a very nice way that you don’t want to because if you just ignore them or don’t tell them in a very nice way it might hurt their feelings and make them sad.",
+            "It’s okay if you don’t want to raise your hand and answer your teacher’s question, although whenever you ignore your teacher and not answer one of her questions, your teacher might feel sad. If you know the answer to your teacher’s question, it would be nice if you would raise your hand to answer your teacher’s question.",
+            "Whenever you do not listen and interrupt your teacher’s lesson or discussion, it might make your teacher angry, sad or disappointed. It would be nice to listen to your teacher’s discussion so that everyone may learn and understand what the teacher is saying.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "playing_with_friends": {
+         "descriptive": ["Playing with friends is very fun and exciting. There are so many games you can play with your friends that you can’t do by yourself. Games like tag, hide and seek, playing with toys, board games, and others. Although, before you start playing with your friends again, there is some stuff you must learn. "],
+         "directive": [
+            "When you’re playing with your friends, there will be a time where you and your friends will play with some of your toys.",
+            "When you’re playing with your friends, some of your friends might invite other kids who you can meet and be friends with.",
+            "When you’re playing with your friends or with other kids, there will be games where you will win and you will lose. It is important to know what to do whenever you win or when you lose.",
+            "When you’re playing with your friends or with other kids, there will be games where you will win and you will lose. It is important to know what to do whenever you win or when you lose.",
+            ""
+         ],
+         "question": [
+            "What will you do when some of your friends want to play with your toys?",
+            "What will you do when your friends invite other kids to play?",
+            "What will you do when you win a game against your friends?",
+            "What will you do when you lose a game against your friends?",
+            ""
+         ],
+         "good_response": [
+            "Share my toys",
+            "Play, befriend other kids",
+            "Be a sport and not brag",
+            "Be humble",
+            ""
+         ],
+         "good_perspective": [
+            "What do you think your friends will feel when you let them borrow your toys?",
+            "What do you think the other kids will feel after you play with them and try to be friends with them?",
+            "What will you friends think when you don’t brag about winning?",
+            "What will your friends think after what you did?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What will you feel after letting your friends borrow your toys?",
+            "What will you feel after you say ‘yes,’ to the other kids who asked you to play with them?",
+            "What will you feel after not bragging about winning the game?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "affirmation": [
+            "Whenever your friends ask you if they can play with your toys, it would be great to let them borrow your toys and share your toys with them. It will make them happy, and it will also make you happy.",
+            "When other kids who were invited by your friends ask you to play with them, it would be good to play with them because not only will you have fun with them, you can also gain new friends by playing with them, and everyone will be happy.",
+            "Whenever you win a game against your friends, it is important to be humble and not be boastful. You should never brag about winning against your friends because it might hurt your friends’ feelings and it might make them sad or angry at you. Being humble will make them think that you are a good person and they will respect you.",
+            "When you lose a game to your friends or to anyone you are playing with, it is important to be humble even in defeat, and say “good game” or congratulate the people you played against. Doing this will make your friends think that you are a good and humble person.",
+            ""
+         ],
+         "bad_response": [
+            "Not share my toys",
+            "Won’t play with them",
+            "Brag about the game",
+            "Complain about losing",
+            ""
+         ],
+         "bad_perspective": [
+            "What will you feel after not letting your friends borrow your toys?",
+            "What will you feel after telling them that you won’t play with them?",
+            "What will you feel after bragging about winning the game?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What do you think your friends will feel if you don’t let them borrow your toys?",
+            "What do you think the other kids will feel after you tell them you won’t play with them?",
+            "What will your friends think when you brag about winning?",
+            "What do you think your friends will think and feel after what you did?",
+            ""
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to share your toys, but you have to tell your friends in a very nice way. If you don’t tell them in a very nice way, it might make them feel angry or sad. You and your friends might fight, and that would not be good. That’s why sometimes, it would be nice to let your friends borrow your toys and share some of your toys to them as gifts. Doing that will make your friends happy, and it will also make you happy.",
+            "It’s okay not to play with other kids if you don’t know them, but you have to tell them in a very nice way that you don’t want to play with them. When you don’t tell them in a very nice way or don’t play with them, it might make the other kids sad, and your friends might also be sad. That is why sometimes it would be nice if you would play with the other kids to make them happy, your friends happy, and it will make you happy. You can also make the other kids your new friends.",
+            "Whenever you brag or be boastful or “mayabang” towards your friend after you win a game, it might hurt your friends’ feelings and it might make them angry at you or sad. It would be nice to be humble and not be boastful or 'mayabang'.",
+            "When you complain about losing or don’t accept losing, your friends might think that you are a bad person and they might think that you are a sore loser. It would be nice to be humble in losing, and congratulate your friends for winning or tell them that it was a 'good game'.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "movie": {
+         "descriptive": ["It’s very fun going to the movies with your friends and/or family. It is a good bonding experience to spend time watching a good movie with your friends and/or family. Although, there are some things that you need to learn in order for you to watch in the cinemas or movie theaters with your friends and/or family."],
+         "directive": [
+            "Before you go in to watch a movie, you will have to line up to buy a ticket to go inside the cinema or movie theater.",
+            "When you’re in the movie theater, you’ll see some of the janitors or cleaners cleaning the seats and the floor for you to have a good and clean movie experience.",
+            "When you are in the movie theater, there are rules in the movie house that you should follow when the movie is playing.",
+            "While watching the movie, you may eat and drink the food you bought outside the movie theater. Eating and drinking while watching a movie is a great experience as well.",
+            ""
+         ],
+         "question": [
+            "What will you do if the line in for buying a movie ticket is very long?",
+            "What will you do when you see one of the janitors or cleaners in the movie theater?",
+            "When the movie is playing, what will you do?",
+            "While you’re watching the movie, you suddenly finish eating the food and drinks that you bought, what will you do with the trash?",
+            ""
+         ],
+         "good_response": [
+            "Be patient, wait in line",
+            "Greet and thank them",
+            "Keep quiet and enjoy",
+            "Throw away the trash",
+            ""
+         ],
+         "good_perspective": [
+            "Do you think it is the right thing to do? Why do you think it’s the right thing to do?",
+            "What do you think the janitor or cleaner feel after what you did?",
+            "Do you think it is right to keep quiet while the movie is playing?",
+            "What do you think the janitors and cleaners will feel or think after what you did?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "How do you feel after doing the right thing?",
+            "What will you feel after what you did?",
+            "Do you think you are following the rules while you are doing this?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "affirmation": [
+            "Before you go in to watch a movie, you have to line up and wait for your turn to buy your movie ticket. It will make everyone, who are also lining up to buy a ticket, happy. It will also make you a very good person.",
+            "Whenever you see one of the janitors or cleaners in the movie theater, it would be great to greet them and tell them thanks for always making the movie theater clean. It will make them happy and feel grateful. It might also make their day great.",
+            "When the movie is already playing, it is important to keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer.",
+            "Whenever you are watching a movie and you finish the food and drinks that you are eating, it is important to throw it away right after, so it would be easy for the janitors or cleaners after the movie is finished. It would make their job easier, and it would make them happy.",
+            ""
+         ],
+         "bad_response": [
+            "Cut in line",
+            "Ignore the janitor.",
+            "Be noisy",
+            "Leave it",
+            ""
+         ],
+         "bad_perspective": [
+            "What will you feel after doing what you did?",
+            "What will you feel after ignoring the janitor?",
+            "Do you think it is right to talk while the movie is playing?",
+            "Do you think it is the right thing to do?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "Do you think that skipping the line makes you a good customer?",
+            "What do you think the janitor or cleaner feel after what you did?",
+            "Do you think you are following the movie house rules while you are doing this?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "reprimand": [
+            "When you don’t wait for your turn and cut in front of the line, it might make other customers in the movie theater angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn to pay for your movie ticket.",
+            "It’s not that bad if you ignore the janitor or cleaners when you see them, but it would be great if you would greet them when you see them and thank them for what they’re doing because they are making the movie theater clean for you, so you would have a great experience while watching the movie. It will also make their day happy if you would do that.",
+            "When you don’t follow the rules in the movie or cinema house, it might annoy the workers and the other people also watching the movie. It would be better if you would lower your voice, or keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer.",
+            "Whenever you leave your trash behind, it might make the janitor’s job a little bit harder and they might feel sad or angry. It would be nice if you would throw away the food and drinks that you ate, and make their job a little bit easier. It would make them happy if you did.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "friend_house": {
+         "descriptive": ["Going to your friend’s house is very fun because you and your friend can play a lot of games at their house, also they might also have a lot of toys and video games to play with. Although, there are some things you must learn before you go visit their house."],
+         "directive": [
+            "While you’re in your friend’s house, you may see his or her parents and other family members.",
+            "When you’re in your friend’s house and you two are playing together, there will be games where you will win and you will lose. It is important to know what to do whenever you win or when you lose.",
+            "When you’re in your friend’s house and you two are playing together, there will be games where you will win and you will lose. It is important to know what to do whenever you win or when you lose.",
+            "When you’re at your friend’s house, there will be a time where you and your friend will play with some of your friend’s toys.",
+            "Before you leave your friend’s house, you should say your goodbyes to your friend and his family members.",
+            ""
+         ],
+         "question": [
+            "When you see some of your friend’s family members, what will you do?",
+            "What will you do when you win a game against your friend?",
+            "What will you do when you lose a game against your friend?",
+            "What will you do when you want to play with one of your friend’s toys?",
+            "Before you leave, what will you tell your friend and his family members?",
+            ""
+         ],
+         "good_response": [
+            "Greet my friend’s parents",
+            "Be humble",
+            "Be humble in defeat",
+            "Ask to borrow toys",
+            "Say goodbye, thank them",
+            ""
+         ],
+         "good_perspective": [
+            "What do you think your friend’s parents will think and feel after what you did?",
+            "What will your friend think when you don’t brag about winning?",
+            "What will your friend think after what you did?",
+            "Do you think it is right to ask your friend first before you borrow one of his toys?",
+            "What do you think they will feel after what you said?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What will you feel after what you did?",
+            "What will you feel after not bragging about winning the game?",
+            "What will you feel after what you did?",
+            "Do you think you are a good friend for asking your friend first before you borrow one of his toys?",
+            "What will you feel after what you said?",
+            ""
+         ],
+         "affirmation": [
+            "When you see some of your friend’s family members, it is important to greet them and ask how they are doing. It will make your friend’s family members feel happy and they will know that you are a good person. It will also make you happy.",
+            "Whenever you win a game against your friend, it is important to be humble and not be boastful. You should never brag about winning against your friend because it might hurt your friend’s feelings and it might make him or her sad or angry at you. Being humble will make your friend think that you are a good person and he or she will respect you.",
+            "When you lose a game to your friend or to anyone you are playing with, it is important to be humble even in defeat, and say “good game” or congratulate the person you played against. Doing this will make your friend think that you are a good and humble person.",
+            "When you want to play with one of your friend’s toys, it would be nice to ask your friend’s permission before you borrow one of his toys. It would make you a good friend for asking his or her permission first.",
+            "Before you leave your friend’s house, you should tell your friend and his family members goodbye and thank them for their company. It will make them feel happy and grateful. It also shows that you are a good person.",
+            ""
+         ],
+         "bad_response": [
+            "Ignore them.",
+            "Brag and boast",
+            "Complain about losing",
+            "Take without permission",
+            "Nothing, I will leave.",
+            ""
+         ],
+         "bad_perspective": [
+            "What will you feel after what you did?",
+            "What will you feel after bragging about winning the game?",
+            "What will you feel after what you did?",
+            "Do you think it is right to take something without asking permission?",
+            "What will you feel after not saying goodbye to your friend and his family members?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What do you think your friend’s family members will think and feel after what you did?",
+            "What will your friend think when you brag about winning?",
+            "What do you think your friend will think and feel after what you did?",
+            "Do you think you are a good friend for taking your friend’s toy without asking permission?",
+            "What do you think your friend and his family members will think and feel after what you did?",
+            ""
+         ],
+         "reprimand": [
+            "It is okay not to greet your friend’s parents when you are in their home, but it would be nice if you would. It would let them know that you are a good child by greeting them and asking them how they are.",
+            "Whenever you brag or be boastful or 'mayabang' towards your friend after you win a game, it might hurt your friend’s feelings and it might make them angry at you or sad. It would be nice to be humble and not be boastful.",
+            "When you complain about losing or don’t accept losing, your friend might think that you are a bad person and they might think that you are a sore loser. It would be nice to be humble in losing, and congratulate your friend for winning or tell them that it was a 'good game'.",
+            "When you don’t ask for permission and borrow your friend’s toy, it might make your friend angry and your friend might think that you are a bad friend. It would be nice to ask your friend’s permission if you can borrow his toy. It would make you a good friend and it is the right thing to do.",
+            "When you don’t say goodbye and you don’t say thanks to your friend and his family members for their company, they might feel sad and they might think that you did not enjoy being in their house. It would be nice to tell them goodbye and thank them for taking care of you in their home.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "amusement_park": {
+         "descriptive": ["Amusement Parks are very fun to go to and it is also a great place to bond and spend time with your friends and family. Amusement Parks have roller coaster rides, fun games, fairs, great food, and a lot of other things that can make you, and your friends and family happy. Although, you have to learn a few things about it before you go to one of these amusement parks."],
+         "directive": [
+            "When going to amusement parks, you’ll see that before you get to ride the roller coasters, play fun games, or even buy food to eat, there are lines of people waiting for their turn.",
+            "In some rides and games in the amusement park, there will be a set of rules that you should follow to make sure that you and others are safe.",
+            "When going to amusement parks, you will see some people who work there, like the security guards, janitors, cashiers, and others. They might approach you and say hello.",
+            "When you’re in the amusement park, there will be a time where you, your friends and family will eat food. After you eat there will probably be trash on your table from all the food you, your friends and family ate.",
+            ""
+         ],
+         "question": [
+            "What will you do when you see people lining up to ride the roller coaster, or play fun games?",
+            "Will you follow the set of rules for the rides and games in the amusement park?",
+            "What will you do when you see some of these workers?",
+            "What will you do after you, your friends and family finish eating?",
+            ""
+         ],
+         "good_response": [
+            "Line up, wait patiently",
+            "Yes",
+            "Greet them",
+            "Throw the trash away",
+            ""
+         ],
+         "good_perspective": [
+            "Do you think it is the right thing to do? Why do you think it’s the right thing to do?",
+            "What do you think the amusement park workers will feel if you follow their set of rules?",
+            "What do you think the amusement park workers think and feel after what you did?",
+            "What do you think the janitors or cleaners in the amusement park will feel if they knew what you did?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "Do you think people will respect you for lining up properly instead of cutting in line?",
+            "What will you feel after following the set of rules in the rides and games?",
+            "What will you feel after what you did?",
+            "What will you feel and think after what you did?",
+            ""
+         ],
+         "affirmation": [
+            "When you see people lining up for something, it is important to be patient and wait for your turn. It will show a sign of respect for other people who are also in the line.",
+            "When the amusement park’s rides and games have a set of rules, it is important to follow them and respect each rule. It will make the amusement park workers feel respected and happy. It will also make you a good customer and a good person for following the rules.",
+            "Whenever you see some of the workers in the amusement park, it is important to greet them and ask them how they are. It will make these workers feel happy and it might make their day happy too. It will also make you a good person when you do this.",
+            "Whenever you finish eating with your friends and family, it is important to always remember to clean after yourself after eating and throw away any trash from what you ate. It will make the janitors or cleaners in the amusement park happy. It will also make you a good person and a good customer after doing it.",
+            ""
+         ],
+         "bad_response": [
+            "Cut in line",
+            "No",
+            "Ignore them",
+            "Leave trash",
+            ""
+         ],
+         "bad_perspective": [
+            "How do you feel after what you did?",
+            "What will you feel after not following the set of rules in the rides and games?",
+            "What will you feel after what you did?",
+            "What will you feel and think after what you did?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "Do you think that cutting in line makes you a good person and customer?",
+            "What do you think the amusement park workers will feel after not following their set of rules?",
+            "What do you think the amusement park workers think and feel after what you did?",
+            "What do you think the janitors or cleaners in the amusement park will feel if they knew what you did?",
+            ""
+         ],
+         "reprimand": [
+            "When you don’t wait for your turn and cut in front of the line, it might make other people also in the line angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn.",
+            "When you don’t follow the rules for riding the rides and playing the games in the amusement park, it might make the amusement park workers angry, annoyed and disrespected. It would be nice to follow the set of rules given by the amusement park workers.",
+            "Sometimes, it is okay to ignore some of the workers in the amusement park, but it would be nice if you would greet them hello and ask them how they are doing. It will make them feel happy and it might make their day happy too. It will also make you a good person if you do this.",
+            "When you leave your trash behind and not clean after yourself, it might make the janitor’s job harder and it might make the janitor or cleaner sad, angry and annoyed. It would be nice to clean after yourself and throw the trash remaining from what you ate.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "visit_grandparents": {
+         "descriptive": ["It is important for everyone to visit their grandparents. Visiting your grandparents is a great way to spend time with your whole family. Also, nothing will make your grandparents happier when they get a visit from their children and their grandchildren. Grandparents love to spoil their grandchildren. The presence of the family visiting, and even a surprise visit, will help make their day. It will fill their home with life and make them feel loved. Although, before you visit your grandparents again, there are some things you should learn so you can show them how much you’ve behaved and become a good child."],
+         "directive": [
+            "When you’re in your grandparents’ house, there will be a time where one of your grandparents will talk to you, and they will tell you a story about their experiences in life.",
+            "Your grandparents are very old and there will be a time where your grandparents will ask you for help with stuff in the house.",
+            ""
+         ],
+         "question": [
+            "What will you do when one of your grandparents is telling you a story?",
+            "If your grandmother or grandfather asked you to help find his or her glasses, what would you do?",
+            ""
+         ],
+         "good_response": [
+            "Listen to them.",
+            "Help my grandparents",
+            ""
+         ],
+         "good_perspective": [
+            "Do you think what you did is the right thing to do?",
+            "Do you think that helping your grandfather or grandmother is the right thing to do?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What do you think your grandmother or grandfather will feel after what you did?",
+            "What do you think your grandfather or grandmother will think or feel after what you did?",
+            ""
+         ],
+         "affirmation": [
+            "Whenever your grandfather or grandmother is telling you a story, it is important to always listen to them because there is a lot to learn from your grandparents. They have lived a long life and they have seen and done a lot of things. Listening to your grandparents when they share a story will make them happy and feel respected. You will also learn a lot from their stories and their stories will make you happy. Listening to their stories will also make you an obedient and good child.",
+            "When your grandparents ask for your help, it is important to always be ready and be willing to help them. Your grandparents are very old and sometimes they really need help in some things. It is your job to help them and take care of them when it is needed. It will make your grandparents very happy when you help them, most especially when you help them without them asking. It will also make you a very good grandchild and person.",
+            ""
+         ],
+         "bad_response": [
+            "Ignore them",
+            "Not help",
+            ""
+         ],
+         "bad_perspective": [
+            "Do you think what you did is the right thing to do?",
+            "Do you think that is the right thing to do?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What will you feel after what you did?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "reprimand": [
+            "When you ignore or not talk to your grandparents when they are telling you a story about their life, it might upset them and make them sad. It would be nice to listen to their stories because you will learn a lot from your grandparents’ stories. Listening to their stories will make them happy and it will also help you a lot. It will also make you a good child when you listen to them.",
+            "When you don’t help your grandparents when they need your help, it might make them sad, angry and helpless. It would be great if you would help them when they need it because your grandparents are very old and sometimes they really need help in some things. It is your job to help them and take care of them when they need it. Doing this will make your grandparents very happy.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "zoo": {
+         "descriptive": ["A zoo, also known as a zoological park or zoological garden, is a place where you can see animals and observe or study them and what they do. Zoos give people like you an opportunity to observe animals they would never get the chance to see. A zoo is also a great place to study, learn and bond with your friends and family. Although, there are things you must know before you go to the zoo."],
+         "directive": [
+            "When you’re in the zoo, there will be rules that you should learn and follow in order to be behaved while observing the animals.",
+            "When you’re in the zoo, you’ll also see some workers like the security guard, tour guide, zoo keepers, and others.",
+            "While in the zoo, there will be a time where the tour guide will be teaching you about the animals. The tour guide will also teach you the rules and what to do at all times inside the zoo.",
+            ""
+         ],
+         "question": [
+            "Will you follow the rules given by the zoo workers?",
+            "When you see one of the zoo workers, what will you do?",
+            "What will you do when the tour guide is teaching you and the others you are with about the animals, rules and things to do in the zoo?",
+            ""
+         ],
+         "good_response": [
+            "Yes",
+            "Greet them",
+            "Listen to the tour guide",
+            ""
+         ],
+         "good_perspective": [
+            "Do you think you’re doing the right thing by following the rules?",
+            "What do you think the zoo workers will think and feel after what you did?",
+            "Do you think it is right to listen to the tour guide?",
+            ""
+         ],
+         "fup_good_perspective": [
+            "What do you think the zoo workers will feel and think when they find out that you are following the rules?",
+            "What will you think and feel after what you did?",
+            "What do you think the tour guide will think and feel when you listen and behave while the tour guide is talking and teaching you and the other?",
+            ""
+         ],
+         "affirmation": [
+            "When the zoo has a set of rules, it is important to follow them and respect each rule. It will make the zoo workers feel respected and happy. It will also make you a good person for following the rules.",
+            "When you’re in the zoo, and you see one of the workers, greeting them and asking them how they are will make them feel very happy, and it might make their day happy as well. It will also make you happy, and it will make you a good person.",
+            "When the tour guide is talking and teaching you and the others, it is important to listen and understand what the tour guide is saying. It would make the tour guide feel happy and respected. It will also make you happy and it will make you a good person.",
+            ""
+         ],
+         "bad_response": [
+            "No",
+            "Ignore them",
+            "Ignore the tour guide",
+            ""
+         ],
+         "bad_perspective": [
+            "Do you think you’re doing the right thing?",
+            "What will you think and feel after what you did?",
+            "Do you think it is right to not listen to the tour guide?",
+            ""
+         ],
+         "fup_bad_perspective": [
+            "What will you feel and think after what you did?",
+            "What do you think the zoo workers will think and feel after what you did?",
+            "What will you feel after what you did?",
+            ""
+         ],
+         "reprimand": [
+            "Whenever you don’t follow the rules, it might make the zoo workers feel very angry, sad and disappointed. It might also be dangerous if you don’t follow the rules in the zoo. It would be nice to follow the rules because it will make the zoo workers really happy and feel respected. It will also make you a good person when you follow the rules.",
+            "Sometimes, it is okay to ignore some of the zoo workers, but it would be nice if you would greet them hello and ask them how they are doing. It will make them feel happy and it might make their day happy too. It will also make you a good person if you do this.",
+            "It’s okay not to pay attention to the tour guide, but when you don’t listen to the tour guide entirely, it might hurt the tour guide’s feelings and it might make the tour guide sad and annoyed. That is why sometimes it would be nice if you would listen to the tour guide and understand what he or she is trying to teach to everyone. If you listen, it will make the tour guide feel happy and respected. It will also make you happy and a good person if you listen.",
+            ""
+         ],
+         "quiz": [
+            "",
+            ""
+         ]
+      },
+      "casual_conversation": {
+         "responses": [
+            "Oh that's cool!", 
+            "That's awesome!",
+            "Tell me more!" 
+         ]
+      }
+   }
