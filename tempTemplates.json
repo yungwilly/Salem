@@ -317,6 +317,106 @@
          "reprimand": [
             "When you don’t wait for your turn and cut in front of the line, it might make other customers in the movie theater angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn to pay for your movie ticket."
          ]
+      },
+      "saying_thank_you:":{
+         "directive": [
+            "When you’re in the $location, you’ll see some of the $target or $target cleaning the seats and the floor for you to have a good and clean movie experience."
+         ],
+         "question": [
+            "What will you do when you see one of the $target or $target in the $location?"
+         ],
+         "perspective": [
+            "What do you think the janitor or cleaner will feel after [decision] them?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] them?"
+         ],
+         "affirmative": [
+            "Whenever you see one of the janitors or cleaners in the movie theater, it would be great to greet them and tell them thanks for always making the movie theater clean. It will make them happy and feel grateful. It might also make their day great."
+         ],
+         "reprimand": [
+            "It’s not that bad if you ignore the janitor or cleaners when you see them, but it would be great if you would greet them when you see them and thank them for what they’re doing because they are making the movie theater clean for you, so you would have a great experience while watching the movie. It will also make their day happy if you do that."
+         ]
+      },
+      "keeping_quiet:":{
+         "directive": [
+            "When you are in the $location, there are rules in the $location that you should follow when the movie is playing. "
+         ],
+         "question": [
+            "When the movie is playing, what will you do?"
+         ],
+         "perspective": [
+            "Do you think it is right to [decision] while the movie is playing?"
+         ],
+         "question_2": [
+            "Do you think you are following the rules while you are doing this?"
+         ],
+         "affirmative": [
+            "When the movie is already playing, it is important to keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer."
+         ],
+         "reprimand": [
+            "When you don’t follow the rules in the movie or cinema house, it might annoy the workers and the other people also watching the movie. It would be better if you would lower your voice, or keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer."
+         ]
+      },
+      "CLAYGO:":{
+         "directive": [
+            "While $verb the movie, you may $verb and $verb the food you bought outside the movie theater. Eating and drinking while watching a movie is a great experience as well."
+         ],
+         "question": [
+            "While you’re $verb the movie, you suddenly finish $verb the food and drinks that you $verb. What will you do with the trash?"
+         ],
+         "perspective": [
+            "What do you think the janitors and cleaners will feel or think after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision]?"
+         ],
+         "affirmative": [
+            "Whenever you are watching a movie and you finish the food and drinks that you are eating, it is important to throw it away right after, so it would be easy for the janitors or cleaners after the movie is finished. It would make their job easier, and it would make them happy."
+         ],
+         "reprimand": [
+            "Whenever you leave your trash behind, it might make the janitor’s job a little bit harder and they might feel sad or angry. It would be nice if you would throw away the food and drinks that you ate, and make their job a little bit easier. It would make them happy if you did."
+         ]
+      },
+      "greeting_friends:":{
+         "directive": [
+            "While you’re in your $target $location, you may see his or her $spectator and other $spectator."
+         ],
+         "question": [
+            "When you see some of your friend’s family members, what will you do?"
+         ],
+         "perspective": [
+            "What do you think your friend’s parents will think and feel after [decision] them?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] them?"
+         ],
+         "affirmative": [
+            "When you see some of your friend’s family members, it is important to greet them and ask how they are doing. It will make your friend’s family members feel happy and they will know that you are a good person. It will also make you happy."
+         ],
+         "reprimand": [
+            "It is okay not to greet your friend’s parents when you are in their home, but it would be nice if you would. It would let them know that you are a good child by greeting them and asking them how they are."
+         ]
+      },
+      "thanking_friends_parents:":{
+         "directive": [
+            "Before you leave your $target house, you should say your goodbyes to your friend and his family members."
+         ],
+         "question": [
+            "Before you leave, what will you tell your friend and his family members?"
+         ],
+         "perspective": [
+            "What do you think they will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision]?"
+         ],
+         "affirmative": [
+            "Before you leave your friend’s house, you should tell your friend and his family members goodbye and thank them for their company. It will make them feel happy and grateful. It also shows that you are a good person."
+         ],
+         "reprimand": [
+            "When you don’t say goodbye and you don’t say thanks to your friend and his family members for their company, they might feel sad and they might think that you did not enjoy being in their house. It would be nice to tell them goodbye and thank them for taking care of you in their home."
+         ]
       }
    }
 }
