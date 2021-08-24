@@ -1,0 +1,418 @@
+{
+   "social_story": {
+      "descriptive": ["$social_story are $adjective and $adjective. There are some things you need to remember when $verb a $social_story. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb the $location."],
+      "greeting:":{
+         "directive": [
+            "When you $verb at the $event, you should look for the $target. There will also be other $spectator at the $location too and they may say $maySay and they may ask you to $mayDo with them."
+         ],
+         "question": [
+            "When you see the $target, what will you do?"    
+         ],
+         "good_decision": [
+            "I will $good_decision the $target."    
+         ],
+         "bad_decision": [
+            "I will $bad_decision the $target."    
+         ],
+         "perspective": [
+            "What do you think the $target will feel after you [decision] them?"
+         ],
+         "affirmative": [
+            "That’s right! Greeting your friend a “Happy Birthday” makes you a good friend. It will mean a lot to them and it will make them happy on their special day."
+         ],
+         "reprimand": [
+            "When you don’t greet the celebrant during their birthday, they might feel $mayFeel and $mayFeel. The celebrant might think that you forgot their birthday. It would be nice if you would greet the celebrant and make them happy on their special day."
+         ]
+      },
+      "making_friends:":{
+         "directive": [
+            "In the $social_story, other $spectator may $verb you and ask you to $mayDo with them."
+         ],
+         "question": [
+            "When other $spectator $verb you what will you do?"
+         ],
+         "good_decision": [
+            "I will $good_decision them."    
+         ],
+         "bad_decision": [
+            "I will $bad_decision them."    
+         ],
+         "perspective": [
+            "What do you think other $spectator will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] them?"
+         ],
+         "affirmative": [
+            "Yes! [decision] to $spectator is a great way to make new friends. It will make you and the other $spectator happy!"
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to play with other kids, but it will be better if you tell them in a very nice way. Also, when other kids talk to you and you ignore them, it might hurt their feelings and make them sad. It would be nice if you also talk to them and join them if they ask you to play with them, but if you don’t want to play with them, tell them in a very nice way."
+         ]
+      },
+      "playing_and_joining:":{
+         "directive": [
+            "In the $social_story, there might be games where you’ll $verb with other $spectator including the $target. "
+         ],
+         "question": [
+            "When the $spectator at the $location ask you to $maySay one of the $theme, what will you do?"
+         ],
+         "good_decision": [
+            "I will $good_decision them."    
+         ],
+         "bad_decision": [
+            "I will $bad_decision them."    
+         ],
+         "perspective": [
+            "What do you think the other $spectator and the $target will feel after you $good_decision them?"
+         ],
+         "question_2": [
+            "What will you feel after $good_decision the other $spectator and the $target in the $theme?"
+         ],
+         "affirmative": [
+            "Playing with other children is fun and it makes everyone happy. You will also get to meet new people who can be your new friends."
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to join the party games, but you need to tell them in a very nice way that you don’t want to play. Although, it would be nice if you would join them so they will feel happy."
+         ]
+      },
+      "eating_birthday:":{
+         "directive": [
+            "In the $social_story, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
+         ],
+         "question": [
+            "When it is time to $theme, what will you do?"
+         ],
+         "good_decision": [
+            "$good_decision and $verb for my turn"    
+         ],
+         "bad_decision": [
+            "$bad_decision and $verb as I please"    
+         ],
+         "perspective": [
+            "What do you think other $spectators will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] and $verb for your turn?"
+         ],
+         "affirmative": [
+            "When it’s time to $verb at a $social_story, it is good to be patient and wait for your turn to get food."
+         ],
+         "reprimand": [
+            "When you don’t wait for your turn and be impatient when it is time to eat at a birthday party, you might make other people $mayFeel or $mayFeel. It would be nice to be patient and let others who are in front of you get their food first before you."
+         ]
+      },
+      "blowing_candles:":{
+         "directive": [
+            "During the $social_story, everyone in the $location will go towards the $target and the $ooi to $verb to the $target and $verb them $verb the $ooi."
+         ],
+         "question": [
+            "What will you do when everyone surrounds the $target to $verb to them? "
+         ],
+         "good_decision": [
+            "I will $good_decision and $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision and $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think the $target will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What would you feel after [decision] and [decision]?"
+         ],
+         "affirmative": [
+            "When it’s time to gather around the birthday celebrant and sing a ‘happy birthday’ to them, it is good to join and sing with everyone, and watch the birthday celebrant blow his candles. It will make the birthday celebrant happy!"
+         ],
+         "reprimand": [
+            "When you don’t join everyone in gathering around the birthday celebrant to sing ‘happy birthday’ to them and watch them blow the birthday candles, it might hurt the birthday celebrant’s feelings and he/she might feel sad. It would be nice to join everyone in singing, and watching the birthday celebrant in blowing his/her candles. It will make the celebrant happy."
+         ]
+      },
+      "eating_restaurant:":{
+         "directive": [
+            "When $social_story, there’s a chance your family and friends might eat somewhere nice, like a restaurant. When $theme, preparing the food might take some time."
+         ],
+         "question": [
+            "What will you do when the food is still not ready, but you are very hungry?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "Do you think it is proper to [decision] until the food arrives?"
+         ],
+         "question_2": [
+            "Do you think that you showed good manners on the dining table when you [decision]?"
+         ],
+         "affirmative": [
+            "Whenever the food is not ready yet, and you are very hungry, it is important that you should wait and be patient because the workers in the restaurant are working very hard to make the food very special for you. Waiting just a little bit more will make the workers happy. "
+         ],
+         "reprimand": [
+            "It’s okay to ask for your food to arrive quicker, but you should ask for it in a very nice way because whenever you complain about your food not arriving quicker in a not nice way, it might annoy some of the customers and restaurant workers. It might also distract them from the other customers they’re trying to help. That is why, sometimes it would be nice to wait for your food to arrive and be patient."
+         ]
+      },
+      "lining_up:":{
+         "directive": [
+            "In the $social_story, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
+         ],
+         "question": [
+            "When it is time to $theme, what will you do?"
+         ],
+         "good_decision": [
+            "$good_decision and $verb for my turn"    
+         ],
+         "bad_decision": [
+            "$bad_decision and $verb as I please"    
+         ],
+         "perspective": [
+            "What do you think other $spectators will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] and $verb for your turn?"
+         ],
+         "affirmative": [
+            "When you are going to pay for your item, it is important to line up and wait for your turn to pay for your item through the cashier. Doing this will make you a good customer because you are following the basic rules as a customer inside the mall. Following rules will make the workers in the mall and other customers happy."
+         ],
+         "reprimand": [
+            "When you don’t wait for your turn and skip in front of the line to pay for your item, it might make other customers in the store angry, annoyed, or unhappy. It would be nice if you would wait for your turn in the line and wait patiently until it is your turn to pay for your item through the cashier."
+         ]
+      },
+      "helping:":{
+         "directive": [
+            "When you $social_story, you see the $target $verb and you see some $ooi."
+         ],
+         "question": [
+            "When you see $ooi close to you, what will you do?"
+         ],
+         "good_decision": [
+            "$good_decision the trash"    
+         ],
+         "bad_decision": [
+            "$bad_decision the trash"    
+         ],
+         "perspective": [
+            "What do you think the $target will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What would you feel after [decision]?"
+         ],
+         "affirmative": [
+            "Whenever you see some of the workers in the mall having trouble with their job, it would be nice to try and help them because it will make them happy and it will also make you happy and make you feel good."
+         ],
+         "reprimand": [
+            "Whenever you see some of the workers in the mall having trouble with their job, you should not ignore them because it might make them feel sad and it might make their job more difficult and stressful."
+         ]
+      },
+      "reciting:":{
+         "directive": [
+            "In the $location, your $target might ask the class a question about the lesson he or she is teaching. Students usually raise their hand to answer the teacher’s question."
+         ],
+         "question": [
+            "When the $target asks a question to everyone in the class, what will you do if you know the answer?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think your $target will feel when you [decision] and [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] and [decision]?"
+         ],
+         "affirmative": [
+            "When your teacher asks a question about the lesson, it is important to raise your hand and answer your teacher’s question. It will make your teacher feel happy, proud and he or she will appreciate that you answered his or her question. It will also make you happy."
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to raise your hand and answer your teacher’s question, although whenever you ignore your teacher and not answer one of her questions, your teacher might feel sad. If you know the answer to your teacher’s question, it would be nice if you would raise your hand to answer your teacher’s question."
+         ]
+      },
+      "rules_school:":{
+         "directive": [
+            "In $location, there are also rules that you should follow. Rules like, not running in the hallway, keeping quiet in class when the teacher is discussing, no playing in the classroom, and others."
+         ],
+         "question": [
+            "What will you do if your $target is discussing his or her lesson in the classroom?"
+         ],
+         "good_decision": [
+            "I will $good_decision and $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision and $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think your $target will feel when you [decision] during their discussion?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision] during their discussion?"
+         ],
+         "affirmative": [
+            "Whenever your teacher is discussing his or her lesson in front of the class, it is important to keep quiet and listen to your teacher. It will make your teacher happy because he or she knows that you are listening and learning. Your teacher will also be happy because he or she is not being interrupted. If you do this, you will also be a good student."
+         ],
+         "reprimand": [
+            "Whenever you do not listen and interrupt your teacher’s lesson or discussion, it might make your teacher angry, sad or disappointed. It would be nice to listen to your teacher’s discussion so that everyone may learn and understand what the teacher is saying."
+         ]
+      },
+      "sharing_toys:":{
+         "directive": [
+            "When you’re $social_story with your $target, there will be a time where you and your $target will $verb with some of your $ooi."
+         ],
+         "question": [
+            "What will you do when some of your $target want to $verb with your $ooi?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think your $target will feel when you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] with your $target?"
+         ],
+         "affirmative": [
+            "Whenever your friends ask you if they can play with your toys, it would be great to let them borrow your toys and share your toys with them. It will make them happy, and it will also make you happy."
+         ],
+         "reprimand": [
+            "It’s okay if you don’t want to share your toys, but you have to tell your friends in a very nice way. If you don’t tell them in a very nice way, it might make them feel angry or sad. You and your friends might fight, and that would not be good. That’s why sometimes, it would be nice to let your friends borrow your toys and share some of your toys to them as gifts. Doing that will make your friends happy, and it will also make you happy."
+         ]
+      },
+      "winning_losing:":{
+         "directive": [
+            "When you’re $social_story or with other $spectator, there will be $ooi where you will win and you will lose. It is important to know what to do whenever you win or when you lose."
+         ],
+         "question": [
+            "What will you do when you $verb against your friends?"
+         ],
+         "good_decision": [
+            "I will $good_decision about winning the game"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision about winning the game"    
+         ],
+         "perspective": [
+            "What will your $target feel when you [decision] about winning?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision] about winning?"
+         ],
+         "affirmative": [
+            "Whenever you win a game against your friends, it is important to be humble and not be boastful. You should never brag about winning against your friends because it might hurt your friends’ feelings and it might make them sad or angry at you. Being humble will make them think that you are a good person and they will respect you."
+         ],
+         "reprimand": [
+            "Whenever you brag or be boastful or “mayabang” towards your friend after you win a game, it might hurt your friends’ feelings and it might make them angry at you or sad. It would be nice to be humble and not be boastful or “mayabang”."
+         ]
+      },
+      "saying_thank_you:":{
+         "directive": [
+            "When you’re in the $location, you’ll see some of the $target or $target cleaning the seats and the floor for you to have a good and clean movie experience."
+         ],
+         "question": [
+            "What will you do when you see one of the $target or $target in the $location?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think the janitor or cleaner will feel after [decision] them?"
+         ],
+         "question_2": [
+            "What will you feel after [decision] them?"
+         ],
+         "affirmative": [
+            "Whenever you see one of the janitors or cleaners in the movie theater, it would be great to greet them and tell them thanks for always making the movie theater clean. It will make them happy and feel grateful. It might also make their day great."
+         ],
+         "reprimand": [
+            "It’s not that bad if you ignore the janitor or cleaners when you see them, but it would be great if you would greet them when you see them and thank them for what they’re doing because they are making the movie theater clean for you, so you would have a great experience while watching the movie. It will also make their day happy if you do that."
+         ]
+      },
+      "keeping_quiet:":{
+         "directive": [
+            "When you are in the $location, there are rules in the $location that you should follow when the movie is playing. "
+         ],
+         "question": [
+            "When the movie is playing, what will you do?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "Do you think it is right to [decision] while the movie is playing?"
+         ],
+         "question_2": [
+            "Do you think you are following the rules while you are doing this?"
+         ],
+         "affirmative": [
+            "When the movie is already playing, it is important to keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer."
+         ],
+         "reprimand": [
+            "When you don’t follow the rules in the movie or cinema house, it might annoy the workers and the other people also watching the movie. It would be better if you would lower your voice, or keep quiet in the movie theater and watch silently as the movie goes on. Doing this shows respect to the movie rules, and to the other people watching the movie. Doing this also makes you a good movie watcher or goer."
+         ]
+      },
+      "CLAYGO:":{
+         "directive": [
+            "While $verb the movie, you may $verb and $verb the food you bought outside the movie theater. Eating and drinking while watching a movie is a great experience as well."
+         ],
+         "question": [
+            "While you’re $verb the movie, you suddenly finish $verb the food and drinks that you $verb. What will you do with the trash?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think the janitors and cleaners will feel or think after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision]?"
+         ],
+         "affirmative": [
+            "Whenever you are watching a movie and you finish the food and drinks that you are eating, it is important to throw it away right after, so it would be easy for the janitors or cleaners after the movie is finished. It would make their job easier, and it would make them happy."
+         ],
+         "reprimand": [
+            "Whenever you leave your trash behind, it might make the janitor’s job a little bit harder and they might feel sad or angry. It would be nice if you would throw away the food and drinks that you ate, and make their job a little bit easier. It would make them happy if you did."
+         ]
+      },
+      "thanking_friends_parents:":{
+         "directive": [
+            "Before you leave your $target house, you should say your goodbyes to your friend and his family members."
+         ],
+         "question": [
+            "Before you leave, what will you tell your friend and his family members?"
+         ],
+         "good_decision": [
+            "I will $good_decision"    
+         ],
+         "bad_decision": [
+            "I will $bad_decision"    
+         ],
+         "perspective": [
+            "What do you think they will feel after you [decision]?"
+         ],
+         "question_2": [
+            "What will you feel after you [decision]?"
+         ],
+         "affirmative": [
+            "Before you leave your friend’s house, you should tell your friend and his family members goodbye and thank them for their company. It will make them feel happy and grateful. It also shows that you are a good person."
+         ],
+         "reprimand": [
+            "When you don’t say goodbye and you don’t say thanks to your friend and his family members for their company, they might feel sad and they might think that you did not enjoy being in their house. It would be nice to tell them goodbye and thank them for taking care of you in their home."
+         ]
+      }
+   }
+}
