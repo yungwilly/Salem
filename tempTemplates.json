@@ -1,6 +1,6 @@
 {
    "social_story": {
-      "descriptive": ["$social_story are $adjective and $adjective. There are some things you need to remember when $verb a $social_story. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb the $location."],
+      "descriptive": ["$social_story is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location."],
       "greeting:":{
          "directive": [
             "When you $verb at the $event, you should look for the $target. There will also be other $spectator at the $location too and they may say $maySay and they may ask you to $mayDo with them."
