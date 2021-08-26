@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 
-let db = new sqlite3.Database('./testDB1.db', sqlite3.OPEN_READONLY, (err) => {
+let db = new sqlite3.Database('./testDB.db', sqlite3.OPEN_READONLY, (err) => {
    if (err) {
       return console.error(err.message);
    }
@@ -25,15 +25,16 @@ let db = new sqlite3.Database('./testDB1.db', sqlite3.OPEN_READONLY, (err) => {
 // console.log(a);
 
 let stmt = `SELECT adjectiveID, message FROM Adjective WHERE adjectiveID  = ?`;
-let adjectiveID = Math.floor(Math.random() * 13) + 1;;
+let adjectiveID = Math.floor(Math.random() * 13) + 1;
+let template = "$social_story is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location.";
 
-// first row only
-db.get(stmt, [adjectiveID], (err, row) => {
+db.each(stmt, [adjectiveID], (err, row) => {
+   let re = /[$]adjective/g;
    if (err) {
       return console.error(err.message);
    }
    return row
-   ? console.log(row.message)
+   ? console.log(template.replace(re, row.message))
    : console.log(`No playlist found with the id ${adjectiveID}`);
 });
 

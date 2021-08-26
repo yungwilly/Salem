@@ -1,6 +1,6 @@
 {
    "social_story": {
-      "descriptive": ["$social_story is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location."],
+      "descriptive": ["<social_story> is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location."],
       "greeting:":{
          "directive": [
             "When you $verb at the $event, you should look for the $target. There will also be other $spectator at the $location too and they may say $maySay and they may ask you to $mayDo with them."
@@ -21,12 +21,12 @@
             "That’s right! Greeting your friend a “Happy Birthday” makes you a good friend. It will mean a lot to them and it will make them happy on their special day."
          ],
          "reprimand": [
-            "When you don’t greet the celebrant during their birthday, they might feel $mayFeel and $mayFeel. The celebrant might think that you forgot their birthday. It would be nice if you would greet the celebrant and make them happy on their special day."
+            "When you don’t $verb the $target during their <social_story>, they might feel $mayFeel and $mayFeel. The $target might think that you forgot their birthday. It would be nice if you would greet the celebrant and make them happy on their special day."
          ]
       },
       "making_friends:":{
          "directive": [
-            "In the $social_story, other $spectator may $verb you and ask you to $mayDo with them."
+            "In the <social_story>, other $spectator may $verb you and ask you to $mayDo with them."
          ],
          "question": [
             "When other $spectator $verb you what will you do?"
@@ -52,7 +52,7 @@
       },
       "playing_and_joining:":{
          "directive": [
-            "In the $social_story, there might be games where you’ll $verb with other $spectator including the $target. "
+            "In the <social_story>, there might be games where you’ll $verb with other $spectator including the $target. "
          ],
          "question": [
             "When the $spectator at the $location ask you to $maySay one of the $theme, what will you do?"
@@ -78,7 +78,7 @@
       },
       "eating_birthday:":{
          "directive": [
-            "In the $social_story, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
+            "In the <social_story>, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
          ],
          "question": [
             "When it is time to $theme, what will you do?"
@@ -96,7 +96,7 @@
             "What will you feel after [decision] and $verb for your turn?"
          ],
          "affirmative": [
-            "When it’s time to $verb at a $social_story, it is good to be patient and wait for your turn to get food."
+            "When it’s time to $verb at a <social_story>, it is good to be patient and wait for your turn to get food."
          ],
          "reprimand": [
             "When you don’t wait for your turn and be impatient when it is time to eat at a birthday party, you might make other people $mayFeel or $mayFeel. It would be nice to be patient and let others who are in front of you get their food first before you."
@@ -104,7 +104,7 @@
       },
       "blowing_candles:":{
          "directive": [
-            "During the $social_story, everyone in the $location will go towards the $target and the $ooi to $verb to the $target and $verb them $verb the $ooi."
+            "During the <social_story>, everyone in the $location will go towards the $target and the $ooi to $verb to the $target and $verb them $verb the $ooi."
          ],
          "question": [
             "What will you do when everyone surrounds the $target to $verb to them? "
@@ -130,7 +130,7 @@
       },
       "eating_restaurant:":{
          "directive": [
-            "When $social_story, there’s a chance your family and friends might eat somewhere nice, like a restaurant. When $theme, preparing the food might take some time."
+            "When <social_story>, there’s a chance your family and friends might eat somewhere nice, like a restaurant. When $theme, preparing the food might take some time."
          ],
          "question": [
             "What will you do when the food is still not ready, but you are very hungry?"
@@ -156,7 +156,7 @@
       },
       "lining_up:":{
          "directive": [
-            "In the $social_story, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
+            "In the <social_story>, there will be a time where everyone in the $location will $theme the $ooi. During this time, everyone usually lines up and waits for their turn to get $ooi."
          ],
          "question": [
             "When it is time to $theme, what will you do?"
@@ -182,7 +182,7 @@
       },
       "helping:":{
          "directive": [
-            "When you $social_story, you see the $target $verb and you see some $ooi."
+            "When you <social_story>, you see the $target $verb and you see some $ooi."
          ],
          "question": [
             "When you see $ooi close to you, what will you do?"
@@ -260,7 +260,7 @@
       },
       "sharing_toys:":{
          "directive": [
-            "When you’re $social_story with your $target, there will be a time where you and your $target will $verb with some of your $ooi."
+            "When you’re <social_story> with your $target, there will be a time where you and your $target will $verb with some of your $ooi."
          ],
          "question": [
             "What will you do when some of your $target want to $verb with your $ooi?"
@@ -286,7 +286,7 @@
       },
       "winning_losing:":{
          "directive": [
-            "When you’re $social_story or with other $spectator, there will be $ooi where you will win and you will lose. It is important to know what to do whenever you win or when you lose."
+            "When you’re <social_story> or with other $spectator, there will be $ooi where you will win and you will lose. It is important to know what to do whenever you win or when you lose."
          ],
          "question": [
             "What will you do when you $verb against your friends?"
