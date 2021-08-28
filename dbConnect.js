@@ -9,34 +9,30 @@ let db = new sqlite3.Database('./testDB.db', sqlite3.OPEN_READONLY, (err) => {
    console.log('-------------------------');
 });
 
-// let stmt = `SELECT * FROM Adjective`;
+function WordCount(str) { 
+   return str.split(" ").length;
+}
 
-// db.all(stmt, [], (err, rows) => {
-//    if (err) {
-//       throw err;
-//    }
-//    rows.forEach((row) => {
-//       console.log(row);
-//    });
-// });
-
-// const str = 'The $adjective fox $verb over the $target';
-// let a = str.replace("$adjective", "quick");
-// console.log(a);
+let template = "$social_story is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location.";
+var newTemplate = template.split(" ");
 
 let stmt = `SELECT adjectiveID, message FROM Adjective WHERE adjectiveID  = ?`;
-let adjectiveID = Math.floor(Math.random() * 13) + 1;
-let template = "$social_story is $adjective and $adjective. There are some things you need to remember when $verb at a $location. If you remember these things, you will have a $adjective time and the $target will be happy that you $verb at the $location.";
-
-db.each(stmt, [adjectiveID], (err, row) => {
-   let re = /[$]adjective/g;
-   if (err) {
-      return console.error(err.message);
+let re = /[$]adjective/;
+for(i = 0; i < WordCount(template); i++){
+   if(newTemplate[i].includes('$adjective')){
+      let adjectiveID = Math.floor(Math.random() * 13) + 1;
+      let a = newTemplate[i].toString()
+      db.get(stmt, [adjectiveID], (err, row) => {
+         if (err) {
+            return console.error(err.message);
+         }
+         return row
+         ? console.log(a.replace(re, row.message))
+         : console.log(`No playlist found with the id ${adjectiveID}`);
+      });
    }
-   return row
-   ? console.log(template.replace(re, row.message))
-   : console.log(`No playlist found with the id ${adjectiveID}`);
-});
+}
+
 
 db.close((err) => {
    if (err) {
