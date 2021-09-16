@@ -6,7 +6,7 @@
             "When you $verb at the $event, you should look for the $target. There will also be other $spectator at the $location too and they may say $maySay and they may ask you to $mayDo with them."
          ],
          "question": [
-            "When you see the $target, what will you do?"    
+            "When you see the $target, what will you do?"
          ],
          "good_decision": [
             "I will $good_decision the $target."    
