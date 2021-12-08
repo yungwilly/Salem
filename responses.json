@@ -1,35 +1,5 @@
 {
-   "responses": {
-      "descriptive_birthdayparty": ["Birthday parties are fun and exciting. There are some things you need to remember when attending a birthday party. If you remember these things, you will have a good time and the celebrant will be happy that you attended the party."],
-      "directive": [
-         "When you arrive at the $event, $expectedAction", 
-         "In the $event after $action, $mayHappen",
-         "In the $event, $situation, $expectedAction",
-         "During the $event. $expectedAction"
-      ],
-      "question": [
-         "$situation, $tagQuestion"
-      ],
-      "good_response": [
-         "$response"
-      ],
-      "good_perspective": [
-         "What do you think the $subject will feel after you $expectedAction?"
-      ],
-      "affirmation": [
-         "That’s right! $situation makes you a good friend. $consequence"
-      ],
-      "bad_response": [
-         "$response"
-      ],
-      "bad_perspective": [
-         "What do you think the $subject will feel after you $unexpectedAction?"
-      ],
-      "reprimand": [
-         "When you $unexpectedAction, they $mayFeel, so it's better to $expectedAction"
-      ],
-      "quiz": [
-         "$situation, $question"
-      ]
-   }
+   "responses": [
+      ""
+   ]
 }
