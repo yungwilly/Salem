@@ -19,6 +19,7 @@
     "firebase-admin": "^9.6.0",
     "firebase-functions": "^3.13.2",
     "sentiment": "^5.0.2",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "synonyms": "^1.0.1"
   }
 }

@@ -18,7 +18,7 @@
             "What do you think the <target> will feel after you [decision] them?"
          ],
          "affirmative": [
-            "That’s right! <theme> your friend makes you a good friend. It will mean a lot to them and it will make them happy."
+            "That’s right! <theme> your <target> makes you a good friend. It will mean a lot to them and it will make them happy."
          ],
          "reprimand": [
             "When you don’t greet the <target> during their <social_story>, they might feel sad. The <target> might think that you forgot their occasion. It would be nice if you would <theme> the <target> and make them happy on their special day."

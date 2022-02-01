@@ -126,10 +126,10 @@
 // console.log(doc1.out('tags'))
 // console.log(temp.getDescriptive("friend's house", "CLAYGO", "friend"));
 
-var Sentiment = require('sentiment');
-var sentiment = new Sentiment();
-var result = sentiment.analyze("throw the trash away").score;
-console.log(result); // Score: -2, Comparative: -0.666
+// var Sentiment = require('sentiment');
+// var sentiment = new Sentiment();
+// var result = sentiment.analyze("i will not throw the trash away").score;
+// console.log(result); // Score: -2, Comparative: -0.666
 
 // const nlp = require('compromise')
 // nlp.extend(require('compromise-sentences'))
@@ -142,10 +142,29 @@ console.log(result); // Score: -2, Comparative: -0.666
 // console.log(doc.nouns().text());
 
 // const nlp = require('compromise')
-// let input = nlp('clean')
-// var verb = input.verbs().toGerund().text()
+// nlp.extend(require('compromise-sentences'))
+// let input = nlp('i baked cupcakes with mom').matchOne('#Verb').text()
+// let input = nlp('i baked food with my mom')
+// let a = input.sentences().subjects().text()
+// console.log(a);
+// let b = input.nouns().toSingular().text()
+// console.log(b);
+// let tags = input.out('tags')
+// console.log(tags);
+// var b = input.nouns().text()
+// console.log(b);
+// var a = nlp(input).has('#Noun')
+// console.log(a);
+// a = input.sentences().toPastTense().text()
+// console.log(a);
+// b = nlp(input).verbs().conjugate()
+// console.log(b);
+// a = input.verbs().toInfinitive().text()
+// var verb = nlp(a).verbs().toGerund().text()
+// var verb = input.verbs().conjugate()
 // var a = input.verbs().toInfinitive().text()
 // var noun = input.nouns().text()
+// console.log(a);
 // console.log(input.out('tags'));
 
 // nlp.extend((Doc, clean) => {
@@ -177,3 +196,19 @@ console.log(result); // Score: -2, Comparative: -0.666
    
    
    // module.exports = { hasVerb }
+
+var synonyms = require("synonyms");
+var verb = "befriend"
+// synonyms(verb);
+// returns an object like this:
+// {
+// 	n:['screen','cover','covert','concealment'],
+// 	v:['screen','sieve','sort','test']
+// }
+
+console.log(synonyms(verb, "v"));
+// returns an array like this:
+// ['screen','sieve','sort','test']
+
+// synonyms.dictionary
+// returns the whole dictionary

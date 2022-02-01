@@ -101,25 +101,35 @@ app.post('/', express.json() ,(req, res) => {
       var object = agent.context.get('give_activity').parameters['direct_object']
       var none = agent.context.get('give_activity').parameters['none']
 
-      var modVerb = nlp(query).verbs().toGerund().text().toLowerCase()
+      // var input = nlp(query).text()
+      // var hasVerb = nlp(input).has('#Verb')
+      // var hasNoun = nlp(input).has('#Noun')
+
+      var verb = nlp(query).matchOne('#Verb').text()
+      var modVerb = nlp(verb).verbs().toGerund().text().toLowerCase()
+      // console.log(modVerb);
       modVerb = nlp(modVerb).verbs().toInfinitive().text().toLowerCase()
+      // console.log(modVerb);
       
       var modTheme = nlp(query).verbs().toGerund().text().toLowerCase()
       modTheme = nlp(modTheme).verbs().toInfinitive().text().toLowerCase()
 
-      if (none != "") {
+      if (none != "" && any == "" && theme == "") {
          // const parameters = { 'social_stories': story, 'themes': theme, 'target': target };
          agent.context.set('suggest_theme', 1)
          agent.add("Would you like me to suggest a topic?") // repeats with "nothing much" input
-      } else if (any != "") {
-         const parameters = { 'query': modVerb };
+      } // } else if (any != "" && none == "" && theme == "" && hasVerb && hasNoun) {
+      //    agent.add("New Intent")
+      // } 
+      else if (any != "" && none == "" && theme == "") {
+         const parameters = { 'query': verb };
          agent.context.set('prepare_activity', 1, parameters);
          agent.add("What did you " + modVerb + "?")
-      } else if (any == "") {
+      } else if (any == "" && none == "" && theme != "") {
          const parameters = { 'themes': theme, 'themes.original': modTheme };
          agent.context.set('prepare_social_story', 1, parameters);
          agent.add("What did you " + modTheme + "?")
-      }
+      } 
 
       console.log(query);
    }
@@ -129,17 +139,38 @@ app.post('/', express.json() ,(req, res) => {
 
       var verb = agent.context.get('prepare_activity').parameters['query']
       var object = agent.context.get('prepare_activity').parameters['any']
+      var yes_or_no = agent.context.get('prepare_activity').parameters['yes_or_no']
 
       let modVerb = nlp(verb).verbs().toGerund().text().toLowerCase()
       let modNoun = nlp(object).nouns().text().toLowerCase()
 
-      const parameters = { query: verb, };
-      agent.context.set('affirm_activity', 1, parameters)
-
+      const parameters = { 'query': verb, 'yes_or_no': yes_or_no };
+      agent.context.set('elaborate_activity', 1, parameters)
       agent.add("Do you like " + modVerb  + " " + modNoun + " with others?")
 
-      agent.context.set('affirm_activity', 1)
       console.log(query);
+   }
+
+   function elaborateActivity(agent) {
+      var query = agent.query
+
+      var yes_or_no = agent.context.get('elaborate_activity').parameters['yes_or_no']
+      var verb = agent.context.get('elaborate_activity').parameters['query']
+
+      var modVerb = nlp(verb).verbs().toGerund().toTitleCase().text()
+      var modVerb1 = nlp(verb).verbs().toGerund().text().toLowerCase()
+
+      if(yes_or_no == 'yes') {
+         const parameters = { 'query': verb, 'yes_or_no': yes_or_no }
+         agent.context.set('affirm_activity', 1, parameters)
+         agent.add("Why do you like " + modVerb1 + " with others?")
+      } else {
+         // agent.add("That's okay! " + modVerb + " on your own is perfectly fine and can be fun too! What else did you do today?")
+         // agent.context.set('give_activity', 1)
+         const parameters = { 'query': verb, 'yes_or_no': yes_or_no }
+         agent.add("Why do you like " + modVerb1 + " alone?")
+         agent.context.set('affirm_activity', 1, parameters)
+      }
    }
 
    function affirmActivity(agent) {
@@ -173,20 +204,16 @@ app.post('/', express.json() ,(req, res) => {
 
       if (counter % 4 != 0) {
          if (yes_or_no == 'yes'){
-            agent.add(yes[yesRand])
-            agent.add(tagQuestion)
+            agent.add(yes[yesRand] + " " + tagQuestion)
          } else {
-            agent.add(no[noRand])
-            agent.add(tagQuestion)
+            agent.add(no[noRand] + " " + tagQuestion)
          }
          agent.context.set('give_activity', 1)
       } else {
          if (yes_or_no == 'yes'){
-            agent.add(yes[yesRand])
-            agent.add(suggestActivity)
+            agent.add(yes[yesRand] + " " + suggestActivity)            
          } else {
-            agent.add(no[noRand])
-            agent.add(suggestActivity)
+            agent.add(no[noRand] + " " + suggestActivity)
          }
          agent.context.set('suggest_theme', 1)
       }
@@ -245,7 +272,7 @@ app.post('/', express.json() ,(req, res) => {
          agent.context.set('affirm_social_story', 1, parameters)
       } else if(yes_or_no == 'no'){
          agent.add("That's okay! What else did you do today?")
-         agent.context.set('return_activity', 1)
+         agent.context.set('give_activity', 1)
       }
       console.log(query);
    }
@@ -318,7 +345,7 @@ app.post('/', express.json() ,(req, res) => {
 
       if (yes_or_no == 'yes') {
          const parameters = { 'target': target, 'themes': theme, 'social_stories': social_story}
-         agent.context.set('choose_perspective', 1, parameters)
+         agent.context.set('prompt_reason', 1, parameters)
          agent.add(getTemp.getDescriptive(social_story, theme, target))
       } else {
          agent.add("Do you want me to suggest a different topic?")
@@ -335,6 +362,7 @@ app.post('/', express.json() ,(req, res) => {
       var theme = agent.context.get('prompt_social_story').parameters['themes']
       var target = agent.context.get('prompt_social_story').parameters['target']
       var verb = agent.context.get('prompt_social_story').parameters['themes.original']
+      // var perspective = agent.context.get('prompt_social_story').parameters['perspective']
 
       console.log(`Social Story: ${social_story} // Theme: ${theme} // Target: ${target}`);
 
@@ -345,9 +373,27 @@ app.post('/', express.json() ,(req, res) => {
          agent.add(getTemp.getDescriptive(social_story, theme, target))
       }
 
-      const parameters = { 'target': target, 'themes': theme, 'social_stories': social_story}
-      agent.context.set('choose_perspective', 1, parameters)
+      const parameters = { 'target': target, 'themes': theme, 'social_stories': social_story }
+      // agent.context.set('choose_perspective', 1, parameters)
+      agent.context.set('prompt_reason', 1, parameters)
+
       console.log(query);
+   }
+
+   function promptReason(agent) {
+      var query = agent.query
+
+      var social_story = agent.context.get('prompt_reason').parameters['social_stories']
+      var theme = agent.context.get('prompt_reason').parameters['themes']
+      var target = agent.context.get('prompt_reason').parameters['target']
+      var perspective = agent.context.get('prompt_reason').parameters['perspective']
+      var perspective_original = agent.context.get('prompt_reason').parameters['perspective.original']
+
+      var verb = nlp(query).matchOne('#Verb').text()
+
+      const parameters = { 'target': target, 'themes': theme, 'social_stories': social_story, 'perspective': perspective, 'perspective.original': perspective_original, 'verb': verb }
+      agent.context.set('choose_perspective', 1, parameters)
+      agent.add("Why would you choose to " + verb + " with them?")
    }
    
    function choosePerspective(agent) {
@@ -358,10 +404,12 @@ app.post('/', express.json() ,(req, res) => {
       var target = agent.context.get('choose_perspective').parameters['target']
       var perspective = agent.context.get('choose_perspective').parameters['perspective']
       var perspective_original = agent.context.get('choose_perspective').parameters['perspective.original']
-      console.log(perspective);
-      agent.add("What will you feel after you " + perspective_original.toLowerCase() + "?")
+      var verb = agent.context.get('choose_perspective').parameters['verb']
 
-      const parameters = { 'perspective': perspective, 'perspective.original': perspective_original, 'target': target, 'themes': theme, 'social_stories': social_story }
+      console.log(perspective);
+      agent.add("How will you feel after you " + verb + " with them?")
+
+      const parameters = { 'perspective': perspective, 'perspective.original': perspective_original, 'target': target, 'themes': theme, 'social_stories': social_story, 'verb': verb }
       agent.context.set('followup_perspective', 1, parameters)
       console.log(query);
    }
@@ -374,8 +422,9 @@ app.post('/', express.json() ,(req, res) => {
       var perspective = agent.context.get('followup_perspective').parameters['perspective']
       var perspective_original = agent.context.get('followup_perspective').parameters['perspective.original']
       var target = agent.context.get('followup_perspective').parameters['target']
+      var verb = agent.context.get('followup_perspective').parameters['verb']
       console.log(perspective);
-      agent.add("What do you think your " + target + " will feel after you " + perspective_original.toLowerCase() + "?")
+      agent.add("How do you think your " + target + " will feel after you " + verb + " with them?")
 
       const parameters = { 'perspective': perspective, 'perspective.original': perspective_original, 'target': target, 'themes': theme, 'social_stories': social_story }
       agent.context.set('prompt_consequence', 1, parameters)
@@ -399,6 +448,39 @@ app.post('/', express.json() ,(req, res) => {
       }
       
       agent.add("Do you want to continue talking or shall we wrap it up?")
+      const parameters = { 'social_stories': social_story, 'themes': theme, 'target': target, 'perspective': perspective }
+      agent.context.set('repeat_social_story', 1, parameters)
+      console.log(query);
+   }
+
+   function repeatSocialStory(agent) {
+      var query = agent.query
+      
+      var social_story = agent.context.get('repeat_social_story').parameters['social_stories']
+      var target = agent.context.get('repeat_social_story').parameters['target']
+      var verb = agent.context.get('repeat_social_story').parameters['themes.original']
+
+      console.log(`Social Story: ${social_story} // Theme: ${theme} // Target: ${target}`);
+
+      const themes = [
+         "greeting", "making friends", "playing and joining", "eating", "celebrate", "waiting for food", "lining up",
+         "helping", "reciting", "school rules", "sharing toys", "winning or losing", "saying thank you", "keeping quiet", 
+         "CLAYGO", "thanking friend's parents"
+      ]
+
+      var themeRand = Math.floor(Math.random() * themes.length);
+
+      var theme = themes[themeRand]
+
+      if (social_story == "" && theme == "" && target == "") {
+         agent.add(modTheme.text() + " with others is fun! What else do you like doing?")
+      } else {
+         agent.add(getTemp.repeatDescriptive(social_story, theme, target))
+      }
+
+      const parameters = { 'target': target, 'themes': theme, 'social_stories': social_story}
+      agent.context.set('prompt_reason', 1, parameters)
+
       console.log(query);
    }
    
@@ -433,17 +515,22 @@ app.post('/', express.json() ,(req, res) => {
       //    agent.context.set('test-intent-b', 1, parameters);
       // }
       
-      var counter = increment(0)
+      // var counter = increment(0)
       
-      if (counter % 4 != 0) {
-         agent.context.set('test-intent-2', 1)
-         agent.add(counter.toString())
-      } else {
-         agent.context.set('test-intent-2', 1)
-         agent.add("nice")
-      }
+      // if (counter % 4 != 0) {
+      //    agent.context.set('test-intent-2', 1)
+      //    agent.add(counter.toString())
+      // } else {
+      //    agent.context.set('test-intent-2', 1)
+      //    agent.add("nice")
+      // }
 
-      console.log(counter);
+      // console.log(counter);
+
+      var verb = agent.context.get('test-intent-1').parameters['verb']
+      var direct_object = agent.context.get('test-intent-1').parameters['direct_object']
+
+      agent.add(verb + " " + direct_object)
    }
 
    function testIntent2(agent) {
@@ -481,13 +568,16 @@ app.post('/', express.json() ,(req, res) => {
    intentMap.set('5_prepare_social_story', prepareSocialStory);
    intentMap.set('5.5_return_activity', returnActivity);
    intentMap.set('6_prepare_social_story_target', prepareSocialStoryTarget);
+   intentMap.set('6.5_elaborate_activity', elaborateActivity);
    intentMap.set('7_affirm_social_story', affirmSocialStory);
    intentMap.set('7.1_suggest_theme', suggestTheme);
    intentMap.set('7.2_prompt_suggestion', promptSuggestion);
    intentMap.set('8_prompt_social_story', promptSocialStory);
+   intentMap.set('8.5_prompt_reason', promptReason);
    intentMap.set('9_choose_perspective', choosePerspective);
    intentMap.set('10_followup_perspective', perspectiveFollowUp);
    intentMap.set('11_prompt_consequence', getConsequence);
+   intentMap.set('12_repeat_social_story', repeatSocialStory);
    intentMap.set('test_connection', testConnection);
    intentMap.set('test_intent_1', testIntent1);
    intentMap.set('test_intent_2', testIntent2);

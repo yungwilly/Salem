@@ -72,4 +72,22 @@ function getReprimand(social_story, themes, target) {
    return newTemp = newTemp.join(" ").toString()
 }
 
-module.exports = { getDescriptive, getAffirmative, getReprimand }
+function repeatDescriptive(social_story, themes, target) { 
+   var temp1 = templates.themes[themes].directive[0].split(" ")
+   var temp2 = templates.themes[themes].question[0].split(" ")
+   var newTemp = temp1.concat(temp2)
+   
+   for (i = 0; i < newTemp.length; i++) {
+      if (newTemp[i].includes('<social_story>')) {
+         newTemp[i] = social_story
+      } else if (newTemp[i].includes('<theme>')) {
+         newTemp[i] = themes
+      } else if (newTemp[i].includes('<target>')) {
+         newTemp[i] = target
+      } 
+   }
+
+   return newTemp = newTemp.join(" ").toString()
+}
+
+module.exports = { getDescriptive, getAffirmative, getReprimand, repeatDescriptive }
